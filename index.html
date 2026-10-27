@@ -8,8 +8,33 @@
     <meta name="keywords" content="Attila Juhasz, Portfolio, Attila, Mihaly, Juhasz, Astronomer, Engineer, Explorer">
     <meta name="author" content="Attila Juhasz">
     <link rel="stylesheet" href="index-style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <p>Hello</p>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="Attila Juhasz home">
+                <img class="brand__photo" src="attilamj-pp.jpg" alt="">
+                <span class="brand__text">
+                    <span class="brand__name">Attila Juhasz</span>
+                    <span class="brand__title">Astronomer and Engineer</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="astrophotography.html">Astrophotography</a></li>
+                <li><a href="https://galacticbulletin.com" target="_blank" rel="noopener noreferrer">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
