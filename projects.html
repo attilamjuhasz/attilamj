@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attila Juhasz - Astronomer | Engineer | Explorer</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="Attila Juhasz, Portfolio, Attila, Mihaly, Juhasz, Astronomer, Engineer, Explorer">
+    <meta name="author" content="Attila Juhasz">
+    <link rel="stylesheet" href="index-style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Main navigation">
+            <a class="brand" href="/" aria-label="Attila Juhasz home">
+                <img class="brand__photo" src="attilamj-pp.jpg" alt="">
+                <span class="brand__text">
+                    <span class="brand__name">Attila Juhasz</span>
+                    <span class="brand__title">Astronomer | Engineer | Explorer</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="primary-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="primary-navigation">
+                <li><a href="resume/attilajuhasz-resume.pdf" download="resume/attilajuhasz-resume.pdf">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="astrophotography.html">Astrophotography</a></li>
+                <li><a href="https://galacticbulletin.com/" target="_blank" rel="noopener noreferrer">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="resume-content">
+        <div class="about">
+            <h2 class="section-title"><strong>Projects</strong></h2>
+        </div>
+
+        <hr>
+
+        <div class="about">
+            <h2 class="section-title">Radio Telescope</h2>
+            <img src="projects/IMG_7002.JPG" alt="Projects" loading="lazy" class="astrophoto">
+            <br>
+            <p class="about-text">I developed and built a radio telescope using 
+                Fusion 360 CAD, Arduino-controlled electronics, and 3D-printed parts 
+                to observe radio emissions and map the Milky Way's 21 cm hydrogen line. I 
+                used an low-noise amplipher attached to the dish feeding into an RTL-SDR 
+                that lets me analyze the singals coming from space and record them to create 
+                a map of the Milky Way. I've finished the telescope and now I am currently 
+                collecting the data to create a full map.
+            </p>
+        </div>
+
+        <div class="about">
+            <h2 class="section-title">Exoplanet Habitability Predictor</h2>
+            <img src="projects/exohabpre.png" alt="Projects" loading="lazy" class="astrophoto">
+            <br>
+            <p class="about-text">This Python machine learning program predicts 
+                the habitability of exoplanets based on characteristics such as mass, 
+                radius, and host star age. This was one of my first ML projects, learning how 
+                to train models using Random Forest to predict novel data.
+            </p>
+        </div>
+
+        <div class="about">
+            <h2 class="section-title">Gravitational Wave Classification</h2>
+            <img src="projects/grawavclas.png" alt="Projects" loading="lazy" class="astrophoto">
+            <br>
+            <p class="about-text">My gravitational wave detection and analysis 
+                program allows the user to analyze signals from LIGO and Virgo observatories 
+                by simply uploading detect gravitational wave data and running the script. 
+                I used Random Forest classification, Fast Fourier Transforms, and 
+                spectral feature extraction.</p>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+</body>
+</html>
