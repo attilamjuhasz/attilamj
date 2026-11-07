@@ -87,7 +87,7 @@ body {
     width: 44px;
     height: 44px;
     padding: 11px;
-    border: 1px solid #ded8cc;
+    border: 1px solid white;
     border-radius: 8px;
     background: transparent;
     color: white;
@@ -134,9 +134,9 @@ body {
         align-items: stretch;
         gap: 0;
         padding: 0.5rem;
-        border: 1px solid #e8e3d8;
+        border: 1px solid white;
         border-radius: 10px;
-        background: #fffdf8;
+        background: black;
         box-shadow: 0 12px 28px rgb(32 43 53 / 12%);
     }
 
@@ -153,7 +153,7 @@ body {
 
     .nav-links a:hover,
     .nav-links a:focus-visible {
-        background: #f5f0e7;
+        background: white;
     }
 }
 

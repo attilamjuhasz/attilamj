@@ -15,7 +15,7 @@ body {
 
 /*Navigation bar*/
 .site-header {
-    background-color: #e1f1f7;
+    background-color: #83ccec;
     border-bottom: 1px solid #ffffff;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .brand__title {
-    color: #64717c;
+    color: white;
     font-size: 0.82rem;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .nav-links a {
-    color: #344452;
+    color: white;
     font-size: 0.94rem;
     font-weight: 500;
     text-decoration: none;
@@ -79,7 +79,7 @@ body {
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-    color: #a34f36;
+    color: black;
 }
 
 .nav-toggle {
